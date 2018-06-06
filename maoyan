@@ -1,0 +1,6 @@
+import requests
+import re
+
+response=requests.get('http://maoyan.com/board/4')
+print(response)
+print(response.text)
